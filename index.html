@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="">
+<head>
+<title>GDG Pune DevFest</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" >
+</head>
+
+<body id="top": background="1.jpeg">
+  <script src="script.js"></script>
+
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+
+  </div>
+</div>
+
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <div id="logo" class="fl_left">
+      <h1><a href="index.html">GDG DEV-FEST 2020 </a></h1>
+      
+      
+    </div>
+
+    <div >
+      <p><marquee> For attending the GDG DEV-FEST 2020 Events.Peeps need to register first.</marquee></p>
+    </div>
+
+
+    <div id="quickinfo" class="fl_right"> </div>
+
+  </header>
+  <nav id="mainav" class="hoc clear"><button style="background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;" onclick="window.location.href='index.html'">Home</button><button style="background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;" onclick="register()">Register</button><button style="background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;" onclick="showr()">Display Attendes</button>
+ 
+  </nav>
+</div>
+
+<div id="form" class="container"  style="background-image:url('../images/demo/backgrounds/07.jpg'); display: none; " >
+
+  <form id="forms">
+    <p>Register Yourself for Devfest-2020:</p>
+    <hr>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" id="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="contact"><b>Contact</b></label>
+    <input type="text" placeholder="Enter Contact Number" name="contact" id="contact" required>
+
+
+    <label for="payment"><b>Payment Method</b></label>
+    <select name="payment" id="payment">
+
+    <option value="debit">Debit Card</option>
+    <option value="credit">Credit Card</option>
+ 
+
+    <option value="gpay">Google Pay</option>
+    <option value="phonepe">Phone Pe</option>
+ 
+</select>
+    <button type="button"  onclick="tables()" class="registerbtn">Make Payment & Register</button>
+  
+
+</form>
+
+</div>
+  <div class="summary" id="ta" style="display: none;">
+    <h1>Registrations : </h1>
+     
+    <table id="table" class="table">
+      <tr>
+        <th>Filled on</th>
+        <th>Name</th>
+        <th>Email id</th>
+        <th>Contact No.</th>
+        <th>Payment Mode</th>
+      </tr>
+    </table>
+  
+</div>
+
+<div id="imk" class="wrapper bgded overlay" style="background-image:url('images/1.jpg');">
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+      <p><h2>Explore the world of DevFest !</h2></p>
+      <h3 class="heading">GDG Pune</h3>
+      <p>DevFests are community-led developer events hosted by Google Developer Groups around the globe. GDGs are focused on community building and learning about Google’s technologies. </p>
+    </article>
+
+  </div>
+</div>
+
+
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+
+    <div class="sectiontitle">
+      <h2 class="heading">Technologies & Sessions</h2>
+      <p>DEVFEST-2020</p>
+    </div>
+    <div class="group">
+      <div class="one_half first">
+        <p>DevFests may cover multiple products such as Android, Firebase, Google Cloud Platform, Google Assistant, Flutter, machine learning with TensorFlow, and mobile web. Events may include speaker sessions, hackathons, codelabs, study jams, and trainings with speakers from Google, Google Developers Experts, Women Techmaker Ambassadors and speakers from other companies.</p>
+        <p>Google Developers (previously Google Code) is Google's site for software development tools and platforms, application programming interfaces (APIs), and technical resources. The site contains documentation on using Google developer tools and APIs—including discussion groups and blogs for developers using Google's developer products.
+
+There are APIs offered for almost all of Google's popular consumer products, like Google Maps, YouTube, Google Apps, and others.
+
+The site also features a variety of developer products and tools built specifically for developers. Google App Engine is a hosting service for web apps. Project Hosting gives users version control for open source code. Google Web Toolkit (GWT) allows developers to create Ajax applications in the Java programming language.(All languages)</p>
+      </div>
+      <div class="one_half"><img class="inspace-10 borderedbox" src="images/demo/1Dlogo.png" alt=""></div>
+    </div>
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/02.jpg');">
+  <section class="hoc container clear"> 
+    <div class="sectiontitle">
+      <h6 class="heading">  </h6>
+    </div>
+    
+  </section>
+</div>
+
+<div class="wrapper row3">
+  <section class="hoc container clear"> 
+    <div class="sectiontitle">
+      <h2 class="heading">Follow for more / :</h2>
+      
+    </div>
+    <ul class="nospace group services">
+      <li class="one_quarter first">
+        <article class="inverse"><a href="https://www.facebook.com/Google-Developers-967415219957038/" target="_blank"><i class="fa fa-3x fa-facebook"></i></a>
+          <h6 class="heading font-x1"><a href="#"> </a></h6>
+          <p><a href="https://www.facebook.com/Google-Developers-967415219957038/">Facebook</a></p>
+        </article>
+      </li>
+      <li class="one_quarter">
+        <article><a href="https://twitter.com/gdg" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
+          <h6 class="heading font-x1"><a href="#"> </a></h6>
+          <p><a href="https://twitter.com/gdg">Twitter</a></p>
+        </article>
+      </li>
+      <li class="one_quarter">
+        <article class="inverse"><a href="https://www.youtube.com/gdgs" target="_blank"><i class="fa fa-3x fa-spotify"></i></a>
+          <h6 class="heading font-x1"><a href="#"> </a></h6>
+          <p><a href="https://www.youtube.com/gdgs">Youtube</a></p>
+        </article>
+      </li>
+      <li class="one_quarter">
+        <article><a href="https://www.instagram.com/googledevs/" target="_blank"><i class="fa fa-3x fa-instagram"></i></a>
+          <h6 class="heading font-x1"><a href="#"> </a></h6>
+          <p><a href="https://www.instagram.com/googledevs/">Instagram</a></p>
+        </article>
+      </li>
+    </ul>
+  </section>
+</div>
+
+<div class="wrapper row2">
+  <figure class="hoc container clear"> 
+
+  </figure>
+</div>
+
+<div class="wrapper row4 bgded overlay" style="background-image:url('1.jpg');">
+  <footer id="footer" class="hoc clear"> 
+
+    <div class="one_third first">
+      <h2 class="heading">Contact Us</h2>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+          XYZ NewYork
+          </address>
+        </li>
+       
+        <li><i class="fa fa-envelope-o"></i> Mail us : gdgpune@gmail.com</li>
+      </ul>
+    </div>
+    
+  </footer>
+</div>
+
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+
+  </div>
+</div>
+
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<h2> Copyright<a href="https://github.com/iamitbhardwaj7/">@AMIT BHARDWAJ</a></h2>
+
+</body>
+</html>
